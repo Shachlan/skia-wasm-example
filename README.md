@@ -1,8 +1,12 @@
 run ./setup.sh in order to prepare all of the resources necessary for building.
+
 run ./build-skia.sh in order to build the Skia library.
-run ./compile in order to compile my code with Skia and see the undefined symbols.
+
+run ./compile.sh in order to compile my code with Skia and see the undefined symbols.
 
 alternatively, run ./e2e.sh in order to run all 3 scripts together.
+
+
 
 Expected output:
 error: undefined symbol: FT*Palette_Select
