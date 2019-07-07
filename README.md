@@ -36,5 +36,29 @@ error: undefined symbol: SK_EMBEDDED_FONTS
 
 Error: Aborting compilation due to previous errors
 
+
+Notice that after building skia, this output is received:
+
+[565/819] link libdebugcanvas.a
+warning: /Library/Developer/CommandLineTools/usr/bin/ranlib: warning for library: libdebugcanvas.a the table of contents is empty (no object file members in the library define global symbols)
+
+[653/819] link libpathkit.a
+warning: /Library/Developer/CommandLineTools/usr/bin/ranlib: warning for library: libpathkit.a the table of contents is empty (no object file members in the library define global symbols)
+
+[813/819] link libskia.a
+warning: /Library/Developer/CommandLineTools/usr/bin/ranlib: warning for library: libskia.a the table of contents is empty (no object file members in the library define global symbols)
+
+[814/819] link libskshaper.a
+warning: /Library/Developer/CommandLineTools/usr/bin/ranlib: warning for library: libskshaper.a the table of contents is empty (no object file members in the library define global symbols)
+
+[815/819] link libparticles.a
+warning: /Library/Developer/CommandLineTools/usr/bin/ranlib: warning for library: libparticles.a the table of contents is empty (no object file members in the library define global symbols)
+
+[816/819] link libsksg.a
+warning: /Library/Developer/CommandLineTools/usr/bin/ranlib: warning for library: libsksg.a the table of contents is empty (no object file members in the library define global symbols)
+
+[817/819] link libskottie.a
+warning: /Library/Developer/CommandLineTools/usr/bin/ranlib: warning for library: libskottie.a the table of contents is empty (no object file members in the library define global symbols)
+
 notice that Skia might require some packages to be installed on the machine, including
 freetype2, libpng and the OpenGL framework.
